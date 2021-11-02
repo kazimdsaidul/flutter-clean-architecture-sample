@@ -4,7 +4,7 @@ import 'package:clean_architecture_with_bloc_app/screens/home/presentation/page/
 import 'package:clean_architecture_with_bloc_app/screens/login/presentation/page/login.dart';
 import 'constants.dart';
 
-class Router {
+class MyRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case LOGIN_ROUTE:

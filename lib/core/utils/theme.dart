@@ -24,18 +24,18 @@ class CustomTheme {
     // Default TextTheme. Use this to specify the default
     // text styling for headlines, titles, bodies of text, and etc.
     textTheme: TextTheme(
-      headline: TextStyle(
+      headline1: TextStyle(
         fontSize: 20.0,
         fontWeight: FontWeight.bold,
         color: CustomColor.fontBlack,
       ),
-      title: TextStyle(
+      subtitle1: TextStyle(
         fontSize: 18.0,
         fontWeight: FontWeight.bold,
         color: CustomColor.fontBlack,
       ),
-      body1: TextStyle(fontSize: 16.0, color: CustomColor.fontBlack),
-      body2: TextStyle(fontSize: 16.0, color: CustomColor.hintColor),
+      bodyText1: TextStyle(fontSize: 16.0, color: CustomColor.fontBlack),
+      bodyText2: TextStyle(fontSize: 16.0, color: CustomColor.hintColor),
       button: TextStyle(
         color: CustomColor.white,
         fontFamily: 'Roboto',

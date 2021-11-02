@@ -21,7 +21,7 @@ class CleanArchitectureWithBloc extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'clean architecture with bloc',
       theme: CustomTheme.mainTheme,
-      onGenerateRoute: Router.generateRoute,
+      onGenerateRoute: MyRouter.generateRoute,
       initialRoute: LOGIN_ROUTE,
     );
   }

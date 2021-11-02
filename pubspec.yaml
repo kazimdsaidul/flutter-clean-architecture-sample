@@ -47,19 +47,19 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   # For testing.
-  mockito: ^4.1.0
-  # Code generator
-  build_runner: ^1.7.3
-  # Code generator from models (to json and from json)
-  json_serializable: ^3.2.5
-  # API code generator
-  chopper_generator: ^3.0.0
-  #Integration tests
-  flutter_driver:
-    sdk: flutter
-  test: any
-  #bloc testing
-  bloc_test: ^4.0.0
+  # mockito: ^4.1.0
+  # # Code generator
+  # build_runner: ^1.7.3
+  # # Code generator from models (to json and from json)
+  # json_serializable: ^3.2.5
+  # # API code generator
+  # chopper_generator: ^3.0.0
+  # #Integration tests
+  # flutter_driver:
+  #   sdk: flutter
+  # test: any
+  # #bloc testing
+  # bloc_test: ^4.0.0
 
 
 # For information on the generic Dart part of this file, see the

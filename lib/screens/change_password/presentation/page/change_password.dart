@@ -68,10 +68,8 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
           textTheme: CustomTheme.mainTheme.textTheme,
           backgroundColor: CustomColor.white,
           centerTitle: true,
-          title: Text(
-            "Change Password",
-            style: CustomTheme.mainTheme.textTheme.headline,
-          ),
+          title: Text("Change Password",
+              style: CustomTheme.mainTheme.textTheme.headline1),
           brightness: Brightness.light,
         ),
       ),
@@ -236,7 +234,7 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
         fillColor: CustomColor.textFieldBackground,
         filled: true,
         labelText: labelText,
-        labelStyle: CustomTheme.mainTheme.textTheme.body2,
+        labelStyle: CustomTheme.mainTheme.textTheme.bodyText2,
         suffixIcon: IconButton(
           icon: Icon(Icons.remove_red_eye),
           color: CustomColor.hintColor,

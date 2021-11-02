@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
           Text(
             "Login",
-            style: CustomTheme.mainTheme.textTheme.title,
+            style: CustomTheme.mainTheme.textTheme.subtitle1,
           ),
           Padding(
             padding: EdgeInsets.only(top: 14),
@@ -258,7 +258,7 @@ class _LoginPageState extends State<LoginPage> {
         fillColor: CustomColor.textFieldBackground,
         filled: true,
         labelText: "Email*",
-        labelStyle: CustomTheme.mainTheme.textTheme.body2,
+        labelStyle: CustomTheme.mainTheme.textTheme.bodyText2,
       ),
       cursorColor: CustomColor.hintColor,
       onFieldSubmitted: (term) {
@@ -297,7 +297,7 @@ class _LoginPageState extends State<LoginPage> {
         fillColor: CustomColor.textFieldBackground,
         filled: true,
         labelText: "Password*",
-        labelStyle: CustomTheme.mainTheme.textTheme.body2,
+        labelStyle: CustomTheme.mainTheme.textTheme.bodyText2,
         suffixIcon: IconButton(
           icon: Icon(Icons.remove_red_eye),
           color: CustomColor.hintColor,

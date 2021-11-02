@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
             Padding(padding: EdgeInsets.only(top: 50)),
             Text(
               "Draft Home",
-              style: CustomTheme.mainTheme.textTheme.title,
+              style: CustomTheme.mainTheme.textTheme.subtitle1,
             ),
             Padding(padding: EdgeInsets.only(top: 50)),
             Column(
